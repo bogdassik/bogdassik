@@ -17,6 +17,6 @@ define('db_pass','admin_password');
 // Обявление класса для подключения к бд
 $db = new DB_class(db_host,db_name,db_user,db_pass);
 
-$query = $db->select(true, "*","Kuznetsov", "");
-
+$query = $db->select(true, "*","Kuznetsovee", "");
+print_r($query);
 ?>
